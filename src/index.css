@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  /* 1. Custom Warm & Elegant Colors */
+  --color-brand-warm-white: #FBFBFA;   /* bg-brand-warm-white */
+  --color-brand-soft-stone: #F4F3EF;   /* bg-brand-soft-stone */
+  --color-brand-deep-slate: #0F172A;   /* bg-brand-deep-slate / text-brand-deep-slate */
+  --color-brand-indigo: #4F46E5;       /* bg-brand-indigo */
+  --color-brand-indigo-hover: #4338CA; /* hover:bg-brand-indigo-hover */
+  --color-brand-amber-glow: #D97706;   /* bg-brand-amber-glow */
+
+  /* 2. Custom Typography setup */
+  --font-serif: "Playfair Display", "Lora", serif;
+  --font-sans: "Inter", "Plus Jakarta Sans", sans-serif;
+}
