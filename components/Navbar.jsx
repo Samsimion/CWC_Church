@@ -29,15 +29,15 @@ export default function Navbar() {
 
             {/* Desktop Links */}
             <div className="hidden md:flex items-center space-x-8">
-              <a href="#about" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">About</a>
-              <a href="#sermons" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">Sermons</a>
+              <a href="/about" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">About</a>
+              <a href="/sermons" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">Sermons</a>
               <a href="#events" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">Events</a>
               <a href="#connect" className="text-stone-600 hover:text-brand-indigo font-medium transition-colors">Connect</a>
             </div>
 
             {/* Desktop CTA */}
             <div className="hidden md:block">
-              <a href="#visit" className="bg-brand-indigo text-white font-medium px-6 py-2.5 rounded-full hover:bg-brand-indigo-hover transition-all shadow-sm shadow-brand-indigo/10">
+              <a href="/visit" className="bg-brand-indigo text-white font-medium px-6 py-2.5 rounded-full hover:bg-brand-indigo-hover transition-all shadow-sm shadow-brand-indigo/10">
                 Plan Your Visit
               </a>
             </div>

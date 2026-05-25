@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import Hero from './Hero'
-import Navbar from '../components/Navbar'
-import LogisticsAndWelcome from '../components/LogisticsAndWelcome'
-import SermonsPreview from '../components/SermonsPreview'
-import MinistriesGrid from '../components/MinistriesGrid'
-import EventsAndFooter from '../components/EventsAndFooter'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import HomePage from '../pages/HomePage'
+import PlanYourVisitPage from '../pages/PlanYourVisitPage'
+import SermonPage from '../pages/SermonPage'
+
 import './App.css'
 
 function App() {
@@ -12,13 +11,13 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <LogisticsAndWelcome/>
-    <SermonsPreview/>
-    <MinistriesGrid/>
-    <EventsAndFooter/>
-    
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/visit" element={<PlanYourVisitPage />} />
+        <Route path="/sermons" element={<SermonPage/>}/>
+      </Routes>
+    </Router>
     
      
     </>

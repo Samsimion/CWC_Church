@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 export default function PlanYourVisit() {
   // State to manage the contact form
   const [formData, setFormData] = useState({
@@ -37,7 +38,9 @@ export default function PlanYourVisit() {
   ];
 
   return (
+    
     <div className="bg-brand-warm-white font-sans text-brand-deep-slate min-h-screen">
+      
       
       {/* 1. HEADER HERO */}
       <header className="bg-brand-soft-stone py-16 sm:py-24 border-b border-stone-200/50 text-center px-4">
@@ -263,6 +266,8 @@ export default function PlanYourVisit() {
           ))}
         </div>
       </section>
+
+      
 
     </div>
   );
